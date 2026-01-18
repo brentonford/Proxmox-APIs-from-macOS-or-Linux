@@ -1,0 +1,30 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "12c9fa41-eaba-46e8-ab3e-32728c05f582", 
+    "isBlueprint": true, 
+    "key": "buildmachineonproxmox", 
+    "links": [
+        {
+            "stepKey": "deletevirtualmachine"
+        }, 
+        {
+            "stepKey": "uploadisoviascp"
+        }, 
+        {
+            "stepKey": "createvirtualmachine"
+        }, 
+        {
+            "stepKey": "startvirtualmachine"
+        }, 
+        {
+            "stepKey": "waitforosinstallationtocomplete"
+        }, 
+        {
+            "stepKey": "unmountiso"
+        }
+    ], 
+    "name": "Build Machine on Proxmox", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

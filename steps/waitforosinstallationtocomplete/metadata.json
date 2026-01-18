@@ -1,0 +1,18 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "942c5f26-4872-4941-a5a9-e8356dfcd50b", 
+    "isBlueprint": false, 
+    "key": "waitforosinstallationtocomplete", 
+    "links": [
+        {
+            "stepKey": "isosup"
+        }, 
+        {
+            "stepKey": "isosup"
+        }
+    ], 
+    "name": "Wait for OS Installation to Complete", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

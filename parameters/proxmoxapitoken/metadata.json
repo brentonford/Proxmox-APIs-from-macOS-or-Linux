@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "2a701fe8-73a8-4b3f-9401-267cea4f3992", 
+    "key": "proxmoxapitoken", 
+    "name": "Proxmox API Token", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.OsCred"
+}

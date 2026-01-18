@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "d5c8609c-a598-45e7-b4e4-6aea333140f9", 
+    "interpreter": 1, 
+    "key": "startvirtualmachine", 
+    "name": "Start Virtual Machine", 
+    "osCredKey": "proxmoxuser", 
+    "serverKey": "proxmoxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

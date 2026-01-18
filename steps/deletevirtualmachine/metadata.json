@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "d5efab3b-3234-4bf6-a644-bcafd6dde0bb", 
+    "interpreter": 1, 
+    "key": "deletevirtualmachine", 
+    "name": "Delete Virtual Machine", 
+    "osCredKey": "proxmoxuser", 
+    "serverKey": "proxmoxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

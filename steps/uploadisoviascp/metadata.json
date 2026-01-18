@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "30a9dd33-e5cb-410f-84a5-5aca026aded8", 
+    "interpreter": 1, 
+    "key": "uploadisoviascp", 
+    "name": "Upload ISO via scp", 
+    "osCredKey": "automationworkeruser", 
+    "promptResponses": "password:==={proxmoxUser.password}", 
+    "serverKey": "automationworkernode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshPromptedTuple"
+}

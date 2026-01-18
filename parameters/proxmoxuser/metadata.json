@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "f179df6f-680f-4356-b67e-cffae57ba9f6", 
+    "key": "proxmoxuser", 
+    "name": "Proxmox User", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.LinOsCred"
+}
