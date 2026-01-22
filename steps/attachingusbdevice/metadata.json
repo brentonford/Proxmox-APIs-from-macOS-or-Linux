@@ -1,0 +1,12 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "0d675e70-d4d1-4dfc-879c-7619142fb447", 
+    "interpreter": 1, 
+    "key": "attachingusbdevice", 
+    "name": "Attaching USB Device", 
+    "osCredKey": "proxmoxuser", 
+    "serverKey": "proxmoxnode", 
+    "successExitCode": 0, 
+    "type": "com.servertribe.attune.tuples.StepSshTuple"
+}

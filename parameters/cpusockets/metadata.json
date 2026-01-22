@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "0988ee01-fb0f-4e0a-9753-816b6321be4f", 
+    "key": "cpusockets", 
+    "name": "CPU Sockets", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

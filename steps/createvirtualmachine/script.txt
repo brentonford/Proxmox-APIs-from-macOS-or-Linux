@@ -16,10 +16,10 @@ qm create $NEXT_VMID \
     --name $VM_NAME \
     --bios seabios \
     --ostype l26 \
-    --cores 2 \
-    --sockets 1 \
-    --memory 4096 \
-    --scsi0 local-lvm:32,iothread=1 \
+    --cores {cpuCores} \
+    --sockets {cpuSockets} \
+    --memory {memory} \
+    --scsi0 local-lvm:{diskSize},iothread=1 \
     --scsihw virtio-scsi-single \
     --net0 virtio,bridge=vmbr0,firewall=1 \
     --ide2 $ISO_VOLID,media=cdrom \
