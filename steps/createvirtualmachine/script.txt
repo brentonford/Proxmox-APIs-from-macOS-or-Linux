@@ -1,5 +1,5 @@
 VM_NAME='{newOsNode.fqn}'
-ISO_VOLID='local:iso/autoinstaller-{newOsNode.fqn}.iso'
+ISO_VOLID='local:iso/kickstart_{newOsNode.fqn}.iso'
 
 EXISTING_VMID=$(qm list | grep -w "$VM_NAME" | awk '{print $1}')
 
@@ -15,15 +15,14 @@ echo "Creating VM '$VM_NAME' with VMID: $NEXT_VMID"
 qm create $NEXT_VMID \
     --name $VM_NAME \
     --bios seabios \
-    --ostype l26 \
+    --ostype win11 \
     --cores {cpuCores} \
     --sockets {cpuSockets} \
     --memory {memory} \
-    --scsi0 local-lvm:{diskSize},iothread=1 \
-    --scsihw virtio-scsi-single \
-    --net0 virtio,bridge=vmbr0,firewall=1 \
+    --sata0 local-lvm:{diskSize} \
+    --net0 e1000,bridge=vmbr0,firewall=1 \
     --ide2 $ISO_VOLID,media=cdrom \
-    --boot order=scsi0\;ide2 \
+    --boot order=sata0\;ide2 \
     --agent 1
 
 echo "VM created successfully with VMID: $NEXT_VMID"

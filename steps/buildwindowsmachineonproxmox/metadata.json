@@ -2,9 +2,9 @@
     "actionOnStepFail": "stop", 
     "concurrency": 1, 
     "enabled": true, 
-    "externalUuid4": "12c9fa41-eaba-46e8-ab3e-32728c05f582", 
+    "externalUuid4": "878edb9d-12ec-4b62-bef3-9dc3cde401a6", 
     "isBlueprint": true, 
-    "key": "buildmachineonproxmox", 
+    "key": "buildwindowsmachineonproxmox", 
     "links": [
         {
             "stepKey": "deletevirtualmachine"
@@ -25,6 +25,6 @@
             "stepKey": "unmountiso"
         }
     ], 
-    "name": "Build Machine on Proxmox", 
+    "name": "Build Windows Machine on Proxmox", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }
