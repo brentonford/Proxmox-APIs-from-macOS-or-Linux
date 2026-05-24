@@ -4,7 +4,7 @@
     "enabled": true, 
     "externalUuid4": "942c5f26-4872-4941-a5a9-e8356dfcd50b", 
     "isBlueprint": false, 
-    "key": "waitforosinstallationtocomplete", 
+    "key": "waitforlinuxinstallationtocomplete", 
     "links": [
         {
             "stepKey": "isosup"
@@ -13,6 +13,6 @@
             "stepKey": "isosup"
         }
     ], 
-    "name": "Wait for OS Installation to Complete", 
+    "name": "Wait for Linux Installation to Complete", 
     "type": "com.servertribe.attune.tuples.StepGroupTuple"
 }

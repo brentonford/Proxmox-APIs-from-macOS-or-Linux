@@ -13,13 +13,13 @@
             "stepKey": "uploadisoviascp"
         }, 
         {
-            "stepKey": "createvirtualmachine"
+            "stepKey": "createwindowsvirtualmachine"
         }, 
         {
             "stepKey": "startvirtualmachine"
         }, 
         {
-            "stepKey": "waitforosinstallationtocomplete"
+            "stepKey": "iswindowsup"
         }, 
         {
             "stepKey": "unmountiso"
