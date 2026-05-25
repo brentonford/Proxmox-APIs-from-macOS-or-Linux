@@ -3,7 +3,8 @@ ISO_VOLID='local:iso/kickstart_{newOsNode.fqn}.iso'
 
 EXISTING_VMID=$(qm list | grep -w "$VM_NAME" | awk '{print $1}')
 
-if [[ -n "$EXISTING_VMID" ]]; then
+if [[ -n "$EXISTING_VMID" ]]
+then
     echo "VM '$VM_NAME' already exists with VMID: $EXISTING_VMID"
     exit 1
 fi

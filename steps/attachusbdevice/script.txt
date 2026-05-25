@@ -2,7 +2,8 @@ VM_NAME="{newOsNode.fqn}"
 
 VMID=$(qm list | grep -w "$VM_NAME" | awk '{print $1}')
 
-if [[ -z "$VMID" ]]; then
+if [[ -z "$VMID" ]]
+then
     echo "VM '$VM_NAME' does not exist"
     exit 0
 fi

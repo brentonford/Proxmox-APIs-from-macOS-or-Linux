@@ -7,10 +7,10 @@
     "key": "waitforlinuxinstallationtocomplete", 
     "links": [
         {
-            "stepKey": "isosup"
+            "stepKey": "islinuxosup"
         }, 
         {
-            "stepKey": "isosup"
+            "stepKey": "islinuxosup"
         }
     ], 
     "name": "Wait for Linux Installation to Complete", 

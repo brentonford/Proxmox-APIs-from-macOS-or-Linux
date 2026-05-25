@@ -1,0 +1,15 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "892b6f6b-a882-4d84-b0e3-1d30e94e2ad2", 
+    "isBlueprint": true, 
+    "key": "attachusbdevicegroupstep", 
+    "links": [
+        {
+            "stepKey": "attachusbdevice"
+        }
+    ], 
+    "name": "Attach USB Device Group Step", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
