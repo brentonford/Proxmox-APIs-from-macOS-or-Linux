@@ -19,8 +19,8 @@ qm create $NEXT_VMID \
     --ostype win11 \
     --cores {cpuCores} \
     --sockets {cpuSockets} \
-    --memory {memory} \
-    --sata0 local-lvm:{diskSize} \
+    --memory {memoryMb} \
+    --sata0 local-lvm:{diskSizeGb} \
     --net0 e1000,bridge=vmbr0,firewall=1 \
     --ide2 $ISO_VOLID,media=cdrom \
     --boot order=sata0\;ide2 \
