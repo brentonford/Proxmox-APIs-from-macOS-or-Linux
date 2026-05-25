@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "1fc769ee-a19c-48b8-ad04-b6951abe2bcf", 
+    "key": "cpucores", 
+    "name": "CPU Cores", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

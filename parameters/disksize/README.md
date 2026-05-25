@@ -1,0 +1,1 @@
+Hardware Disk Size in GB, example: `32`

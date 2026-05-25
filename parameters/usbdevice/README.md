@@ -1,0 +1,1 @@
+example: `vendor_id:product_id`

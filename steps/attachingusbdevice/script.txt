@@ -1,0 +1,12 @@
+VM_NAME="{newOsNode.fqn}"
+
+VMID=$(qm list | grep -w "$VM_NAME" | awk '{print $1}')
+
+if [[ -z "$VMID" ]]; then
+    echo "VM '$VM_NAME' does not exist"
+    exit 0
+fi
+
+echo "Found VM '$VM_NAME' with VMID: $VMID"
+
+qm set $VMID -usb0 host={usbDevice}

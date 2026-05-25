@@ -1,0 +1,7 @@
+{
+    "externalUuid4": "18831420-c929-4962-bbe7-aa0f96c89a9f", 
+    "key": "usbdevice", 
+    "name": "USB Device", 
+    "showInPlan": true, 
+    "type": "c.s.s.b.phv.Text"
+}

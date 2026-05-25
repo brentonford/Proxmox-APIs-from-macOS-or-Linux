@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": "stop", 
+    "enabled": true, 
+    "externalUuid4": "dca47715-11d3-4cab-a081-82747c07050c", 
+    "key": "iswindowsup", 
+    "minDowntime": 2, 
+    "name": "Is Windows up", 
+    "postWait": 0, 
+    "preWait": 0, 
+    "serverKey": "newosnode", 
+    "tcpPort": 5986, 
+    "type": "com.servertribe.attune.tuples.StepTcpPingTuple"
+}
